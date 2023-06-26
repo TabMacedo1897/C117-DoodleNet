@@ -1,4 +1,4 @@
-
+/* faça alterações no css */
   body {
     background-image: url(esbocos.jpg);
     background-size: cover;
@@ -45,6 +45,7 @@
     animation-name: example;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    width: 50px;
   }
   p {
     font-size: 1.2rem;
@@ -66,18 +67,24 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
   }
-  
-  .button:hover {
-    background-color: #ff7700;
-  }
-  
+.button:hover{
+  background-color: #ff7700;
+  font-size: 2.4rem;
+}
 #label{
-  font-family: 'Caveat', cursive;
-  color: white;
+  font-family: cursive;
+  color: 'white';
   font-size: 25px;
 }
 #confidence{
-  font-family: 'Caveat', cursive;
+  font-family: cursive;
   color: white;
   font-size: 25px;
+}
+#centralizar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh
 }

@@ -20,17 +20,7 @@ function clearCanvas() {
   background("white");
 }
 
-function draw() {
-
-  //Defina strokeWeight como 13
-  strokeWeight(13);
-  //Defina a cor de stroke como preto
-  stroke(0);
-  //Se o moude for clicado, desenhe uma linha entre a posição antiga e atual do mouse
-  if (mouseIsPressed) {
-    line(pmouseX, pmouseY, mouseX, mouseY);
-  }
-}
+//defina a função draw
 
 function classifyCanvas() {
   classifier.classify(canvas, gotResult);
